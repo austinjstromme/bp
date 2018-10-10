@@ -7,7 +7,7 @@ def main():
     # initialize data
 
 def sum_prod(adj, edges, phi, psi, m):
-    ""
+    """
     We assume:
         adj is a list of size n (number of nodes) such that adj[i] is
             the set of all edges with i as an endpoint
@@ -20,7 +20,7 @@ def sum_prod(adj, edges, phi, psi, m):
         m is a list of size 2*len(edges) such that m[e] is a function from
 
     Returns a new list m of messages
-    ""
+    """
 
     n = len(adj)
     mn = [0 for i in range(0, 2*len(edges))]
