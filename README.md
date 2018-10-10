@@ -1,2 +1,2 @@
 # bp
-Belief propogation
+Implementation of belief propogation
